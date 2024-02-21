@@ -432,6 +432,9 @@ header .menu nav a:hover {
   color: #838489;
   margin: 20px 0 60px;
 }
+#our .box {
+  margin-bottom: 50px;
+}
 #our .box .imgbox {
   width: 220px;
   border-radius: 50%;
@@ -455,7 +458,7 @@ header .menu nav a:hover {
   justify-content: center;
 }
 #our .box ul li {
-  background-color: #000000;
+  background-color: #212529;
   border-radius: 50%;
   margin: 10px 10px 0;
 }
@@ -497,7 +500,7 @@ header .menu nav a:hover {
 #our .textbox p {
   font-size: 20px;
   color: #838489;
-  margin-top: 20px;
+  margin: 50px 200px 0;
   line-height: 1.4;
 }
 @media screen and (max-width: 768px) {
@@ -505,6 +508,12 @@ header .menu nav a:hover {
     padding: 0;
   }
 }
+@media screen and (max-width: 992px) {
+  #our .textbox p {
+    margin: auto;
+  }
+}
+
 #sponsors {
   padding: 60px 0;
 }
