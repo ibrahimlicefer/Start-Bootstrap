@@ -296,11 +296,13 @@ header .menu nav a:hover {
   color: #828080;
 }
 #about .box {
-  margin: 0 65px 100px;
+  display: flex;
+  align-items: center;
+  margin: 0 62px 100px;
 }
 #about .box .textbox {
   width: 400px;
-  margin: 0 50px;
+  margin: 0 50px 0;
   text-align: end;
 }
 #about .box .textbox h2, #about .box .textbox h4 {
@@ -316,32 +318,27 @@ header .menu nav a:hover {
 #about .box .imgbox {
   width: 170px;
   border-radius: 50%;
-  border: 7px solid #e9eae5;
+  border: 7px solid #e9ebed;
 }
-#about .box .textbox {
+#about .right {
+  justify-content: end;
+  margin: 0 100px 100px 0;
+}
+#about .right .textbox {
   text-align: start;
 }
 #about .yellow {
   display: flex;
   justify-content: center;
 }
-#about .story {
-  padding: 40px 12px;
-  background-color: #ffc800;
-  border-radius: 50%;
-  border: 7px solid #e9eae5;
-}
 #about .story .minibox {
   text-align: center;
   padding: 0 40px;
 }
 #about .story .minibox h2 {
-  font-size: 21px;
+  font-size: 20px;
   font-weight: 700;
-  color: white;
-  font-weight: 700;
-  line-height: 1.3;
-  width: 60px;
+  line-height: 1.2;
 }
 @media screen and (max-width: 992px) {
   #about .box {
