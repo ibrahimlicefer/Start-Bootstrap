@@ -354,7 +354,11 @@ header .menu nav a:hover {
     align-items: flex-start;
   }
   #about .box .textbox {
-    width: 190px;
+    width: 220px;
+    margin: 0 40px 0;
+  }
+  #about .box .imgbox {
+    width: 100px;
   }
 }
 @media screen and (max-width: 768px) {
@@ -374,7 +378,7 @@ header .menu nav a:hover {
     text-align: start;
   }
   #about .box .imgbox {
-    width: 140px;
+    width: 90px;
     height: auto;
     margin: 0;
   }
